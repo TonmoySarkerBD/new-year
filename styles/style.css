@@ -1,0 +1,47 @@
+/* common style */
+body{
+    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
+  }
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    color: rgb(0, 153, 255);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 15px;
+}
+
+
+
+/* Header Section Style   */
+header{
+   background-image: url("../banner/banner3.png");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   max-height: 100%;
+}
+
+.banner-heading{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.banner-container> h2,p,button {
+    color: #FFF;
+    align-items:top right;
+}
+
+
+
+
+
+
+/* Main Section Style */
+
+
+
+
+/* Footer Section Style */
