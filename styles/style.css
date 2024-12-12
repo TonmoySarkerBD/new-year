@@ -1,10 +1,10 @@
 /* common style */
-body{
+body {
     font-family: "Open Sans", sans-serif;
     font-family: "Lato", sans-serif;
-  }
+}
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FFF;
     border: 0px;
@@ -17,21 +17,38 @@ body{
 
 
 /* Header Section Style   */
-header{
-   background-image: url("../banner/banner3.png");
-   background-repeat: no-repeat;
-   background-size: 100%;
-   max-height: 100%;
+header {
+    background-image: url("../banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-height: 100%;
 }
 
-.banner-heading{
-    font-size: 100px;
+.banner-heading {
+    font-size: 50px;
     font-weight: 700;
 }
 
-.banner-container> h2,p,button {
+.banner-heading{
     color: #FFF;
-    align-items:top right;
+    padding-left: 60%;
+    text-align: right;
+}
+
+.banner-discription{
+    color: #FFF;
+    padding-left: 60%;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+#header-btn {
+    margin-left: 80%;
+    margin-bottom: 50px;
+}
+
+.banner-container{
+    padd-right: 100;
 }
 
 
@@ -40,6 +57,16 @@ header{
 
 
 /* Main Section Style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+section {
+    margin-top: 130px;
+}
 
 
 
