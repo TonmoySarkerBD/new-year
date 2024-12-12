@@ -19,13 +19,17 @@ body {
 /* Header Section Style   */
 header {
     background-image: url("../banner/banner3.png");
-    background-repeat: inherit;
+    background-size: cover;
+    height: 100%;
+
+
     margin-top: 0px;
-    padding-right: 20%;
+    padding-right: 5%;
 }
 
 .banner-heading {
-    font-size: 50px;
+    padding-top: 200px;
+    font-size: 100px;
     font-weight: 700;
 }
 
@@ -33,18 +37,21 @@ header {
     color: #FFF;
     padding-left: 60%;
     text-align: right;
+    margin-bottom: 100px;
 }
 
 .banner-discription{
     color: #FFF;
     padding-left: 60%;
+    font-size: 20px;
     text-align: right;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #header-btn {
     margin-left: 90%;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
+    
 }
 
 .banner-container{
