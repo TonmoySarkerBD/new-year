@@ -92,5 +92,21 @@ section {
     font-size: 20px;
 }
 
+/* My Plan Section */
+.plan-heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.plan-element{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.banner{
+    background: url("/images/watch.png");
+}
+
 
 /* Footer Section Style */
