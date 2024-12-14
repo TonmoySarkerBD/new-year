@@ -107,6 +107,8 @@ section {
 .watch-banner {
     background: url("/images/gradient1.png"), url("/images/watch.png");
     height: auto;
+
+    margin-bottom: 100px;
 }
 
 .watch-banner-heading {
@@ -126,3 +128,16 @@ section {
 
 
 /* Footer Section Style */
+
+footer{
+    background-color: black;
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+
+}
+
+.subscribe {
+    
+}
