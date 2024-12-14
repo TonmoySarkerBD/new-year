@@ -8,7 +8,7 @@ body {
     border-radius: 5px;
     background: #FFF;
     border: 0px;
-    color: rgb(0, 153, 255);
+    color: #006ABE;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 15px;
@@ -23,8 +23,8 @@ header {
     height: 100%;
 
 
-    margin-top: 0px;
-    padding-right: 5%;
+    margin: 0px;
+    padding: 5%;
 }
 
 .banner-heading {
@@ -33,14 +33,14 @@ header {
     font-weight: 700;
 }
 
-.banner-heading{
+.banner-heading {
     color: #FFF;
     padding-left: 60%;
     text-align: right;
     margin-bottom: 100px;
 }
 
-.banner-discription{
+.banner-discription {
     color: #FFF;
     padding-left: 60%;
     font-size: 20px;
@@ -51,10 +51,10 @@ header {
 #header-btn {
     margin-left: 90%;
     margin-bottom: 200px;
-    
+
 }
 
-.banner-container{
+.banner-container {
     padding-right: 100;
 }
 
@@ -75,37 +75,53 @@ section {
     margin-top: 130px;
 }
 
-.my-faliure{
+.my-faliure {
     display: flex;
     justify-content: space-between;
 }
 
-.my-faliure img{
+.my-faliure img {
     max-height: 400px;
 }
 
-.failure-title{
+.failure-title {
     font-size: 40px;
 }
 
-.failure-discription{
+.failure-discription {
     font-size: 20px;
 }
 
 /* My Plan Section */
-.plan-heading{
+.plan-heading {
     text-align: center;
     padding-bottom: 50px;
 }
 
-.plan-element{
+.plan-element {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
 
-.banner{
-    background: url("/images/watch.png");
+.watch-banner {
+    background: url("/images/gradient1.png"), url("/images/watch.png");
+    height: auto;
+}
+
+.watch-banner-heading {
+    color: #FFF;
+    font-size: 45px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+}
+
+#watch-banner-btn {
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 
